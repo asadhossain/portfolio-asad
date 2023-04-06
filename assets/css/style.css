@@ -4,8 +4,8 @@
     --color-heading: #eef3db;
     --color-base: #033f47;
     --color-base2: #022a30;
-    --color-brand: #e0f780;
-    --color-brand2: #deff58;
+    --color-brand: #0dbd4a;
+    --color-brand2: #02ed54a1;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 
@@ -40,9 +40,15 @@ image {
 
 /* navbar and media quary */
 .navbar .nav-link{
-    font-size: 700;
+    font-size: 900;
+    font-weight: bold;
     text-transform: uppercase;
     color: #fff;
+
+}
+.navbar .nav-link:hover{
+    
+    color: var(--color-brand);
 
 }
 @media (min-width: 992px){
@@ -51,6 +57,10 @@ image {
         width: var(--sidbar-width);
         background: linear-gradient(#033f47af, hwb(188 2% 65% / 0.31)), url(../images/sidebar-img.jpg);
         background-repeat: no-repeat;
+
+    }
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
 
     }
 }
