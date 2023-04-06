@@ -63,4 +63,11 @@ image {
         border: 8px solid var(--color-brand);
 
     }
+    /* content wrapper */
+    #content-wrapper {
+        padding-left: var(--sidbar-width);
+    }
+
+
+    /* cotent wrapper */
 }
