@@ -34,3 +34,23 @@ image {
 
     width: 100%;
 }
+
+
+
+
+/* navbar and media quary */
+.navbar .nav-link{
+    font-size: 700;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+@media (min-width: 992px){
+    .navbar{
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(#033f47af, hwb(188 2% 65% / 0.31)), url(../images/sidebar-img.jpg);
+        background-repeat: no-repeat;
+
+    }
+}
