@@ -29,10 +29,15 @@ a{
 a:hover {
     color: var(--color-brand);
 }
-
+/* image CSS */
 image {
 
     width: 100%;
+}
+/* Button css */
+
+.btn{
+
 }
 
 .full-height{
@@ -41,10 +46,15 @@ image {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #ffffff4a;
 
 }
+.text-brand{
+    color: var(--color-brand);
 
+}
 
 /* navbar and media quary */
 .navbar {
