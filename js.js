@@ -1,6 +1,6 @@
-// document.write(22==22 && 44==44);
+// document.write(22==22 && 44==44); */
 
-var avg = prompt("inter your point");
+/*  var avg = prompt("inter your point");
 
 if (avg >= 80 && avg<=100){
     document.write("You Got A+");
@@ -23,5 +23,15 @@ else if (avg >= 33 && avg <= 49){
 }
 else{
     document.write("You Got VERY F");
-}
+}*/
 
+
+
+
+var acc_no = parseInt(prompt("Enter your account nuber"));
+
+if (acc_no == 191311073){
+    document.write("your Log in");
+}else {
+    document.write("your Log faild");
+}
