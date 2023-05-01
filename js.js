@@ -30,8 +30,11 @@ else{
 
 var acc_no = parseInt(prompt("Enter your account nuber"));
 
+
+var balance = parseInt(prompt("Enter your account balance"));
+
 if (acc_no == 191311073){
-    document.write("your Log in");
+    document.write("Enter your Log in <br>");
 }else {
-    document.write("your Log faild");
+    document.write("Enter your Log faild <br>");
 }
